@@ -1,0 +1,225 @@
+/* header style*/
+
+
+.login-button,
+.signup-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.signup-button {
+    background-color: #008CBA;
+}
+
+#hot h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #4993e4;
+    font-weight: 100;
+    text-align: center;
+}
+
+.box {
+    background: #fff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    padding: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#advantages {
+    text-align: center;
+
+}
+
+/*advantages*/
+
+#advantages .box .icon {
+    padding: absolute;
+    font-size: 120px;
+    width: 100%;
+    text-align: center;
+    top: -20px;
+    left: 12;
+    height: 100%;
+    float: left;
+    color: #eeeeee;
+    transition: all 0.2s ease-out;
+    z-index: 1;
+    box-sizing: border-box;
+
+}
+
+#advantages .box h3 {
+    position: relative;
+    margin: 0 0 20px;
+    font-weight: 300px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+#advantages .box h3 a: {
+    text-decoration: none;
+}
+
+#advantages .box p {
+    position: relative;
+    color: #55555555;
+    z-index: 2;
+
+}
+
+/*product*/
+#content {
+    padding-left: 25px;
+}
+
+.single {
+    width: 290px;
+
+}
+
+@media(max-width:768px) {
+    .single {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+#content .product {
+    background: #fff;
+    border: solid 1px #e6e6;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+
+
+}
+
+#content .product .text p.price {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#content .product .text .button {
+    clear: both;
+    text-align: center;
+
+}
+
+#content .product .text h3 {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#content .product .text h3 a {
+    color: rgb(85, 85, 85);
+}
+
+#content .product .text {
+    padding: 10px 10px 0px;
+
+
+}
+
+content .product .text .button .btn {
+    margin-bottom: 10px;
+}
+
+#footer {
+    background: #e0e0e0;
+    padding: 20px 0;
+}
+
+#footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+#footer ul a {
+    color: #999999;
+    padding: 20px 0;
+}
+
+#footer .social {
+    text-align: left;
+    margin: 0 10px 0 0;
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border radios: 15px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    transform: all 0.2s ease-out;
+    vertical-align: bottom;
+    background-color: #555555;
+}
+
+/*copyright section*/
+#copyright {
+    background: #333;
+    color: #ccc;
+    padding: 20px;
+    font-size: 12px;
+}
+
+#copyright p {
+    margin: 0;
+}
+
+/*login*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.nav-link {
+    width: 150px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container label,
+.container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.container {
+    width: 20%;
+
+}
